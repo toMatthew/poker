@@ -16,5 +16,8 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
     ElementPlus()
-  ]
+  ],
+  server: {
+    port: 8686
+  }
 })
